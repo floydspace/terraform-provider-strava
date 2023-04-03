@@ -38,8 +38,8 @@ github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fatih/color v1.13.0 h1:8LOYc1KYPPmyKMuN8QV2DNRWNbLo6LZ0iLs8+mlH53w=
 github.com/fatih/color v1.13.0/go.mod h1:kLAiJbzzSOZDVNGyDpeOxJ47H46qBXwg5ILebYFFOfk=
-github.com/floydspace/strava-webhook-client-go v0.2.3 h1:1KOhhIy8sbHc5ecESy9J7Kq+hwYsYXRmCFN6Zifc0WA=
-github.com/floydspace/strava-webhook-client-go v0.2.3/go.mod h1:XF48anCO3tWxLAUmw33EOmUZ2d498D9LD/NpOzZYjao=
+github.com/floydspace/strava-webhook-client-go v0.2.4 h1:zD3Iuh2iwrRPAO20YuJCcL/L/8xkSvjovv863fO6zKM=
+github.com/floydspace/strava-webhook-client-go v0.2.4/go.mod h1:XF48anCO3tWxLAUmw33EOmUZ2d498D9LD/NpOzZYjao=
 github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568/go.mod h1:xEzjJPgXI435gkrCt3MPfRiAkVrwSbHsst4LCFVfpJc=
 github.com/frankban/quicktest v1.14.3 h1:FJKSZTDHjyhriyC81FLQ0LY93eSai0ZyR/ZIkd3ZUKE=
 github.com/gliderlabs/ssh v0.2.2/go.mod h1:U7qILu1NlMHj9FlMhZLlkCdDnU1DBEAqr0aevW3Awn0=

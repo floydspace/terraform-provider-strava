@@ -3,7 +3,7 @@ module github.com/floydspace/terraform-provider-strava
 go 1.18
 
 require (
-	github.com/floydspace/strava-webhook-client-go v0.2.3
+	github.com/floydspace/strava-webhook-client-go v0.2.4
 	github.com/hashicorp/terraform-plugin-docs v0.14.1
 	github.com/hashicorp/terraform-plugin-framework v1.2.0
 	github.com/hashicorp/terraform-plugin-go v0.14.3
