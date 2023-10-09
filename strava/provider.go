@@ -19,13 +19,19 @@ var (
 	_ provider.Provider = &stravaProvider{}
 )
 
+// stravaProvider is the provider implementation.
+type stravaProvider struct{}
+
+// stravaProviderModel maps provider schema data to a Go type.
+type stravaProviderModel struct {
+	ClientId     types.String `tfsdk:"client_id"`
+	ClientSecret types.String `tfsdk:"client_secret"`
+}
+
 // New is a helper function to simplify provider server and testing implementation.
 func New() provider.Provider {
 	return &stravaProvider{}
 }
-
-// stravaProvider is the provider implementation.
-type stravaProvider struct{}
 
 // Metadata returns the provider type name.
 func (p *stravaProvider) Metadata(_ context.Context, _ provider.MetadataRequest, resp *provider.MetadataResponse) {
@@ -166,10 +172,4 @@ func (p *stravaProvider) Resources(_ context.Context) []func() resource.Resource
 	return []func() resource.Resource{
 		NewPushSubscriptionResource,
 	}
-}
-
-// stravaProviderModel maps provider schema data to a Go type.
-type stravaProviderModel struct {
-	ClientId     types.String `tfsdk:"client_id"`
-	ClientSecret types.String `tfsdk:"client_secret"`
 }
